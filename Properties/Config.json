@@ -1,0 +1,9 @@
+{
+  "Server": "https://172.16.31.54",
+  "Users": {
+    "User_2": {
+      "username": "dev",
+      "password": "Admin@1234"
+    }
+  }
+}

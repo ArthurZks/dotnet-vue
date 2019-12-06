@@ -1,0 +1,37 @@
+{
+  "user": {
+    "user_1": {
+      "name": "user1",
+      "password": "123456"
+    },
+    "user_2": {
+      "name": "user2",
+      "password": "123456"
+    },
+    "user_3": {
+      "name": "user3",
+      "password": "123456"
+    }
+  },
+  "safeControl": {
+    "control1": {
+      "safe": "PIM-test-linux",
+      "user": "user_1",
+      "usepassword": true,
+      "accessnoconfirmation": true
+    },
+    "control2": {
+      "safe": "PIM-test-linux",
+      "user": "user_2",
+      "usepassword": true,
+      "accessnoconfirmation": false
+    },
+    "control3": {
+      "safe": "PIM-test-linux",
+      "user": "user_3",
+      "usepassword": false,
+      "accessnoconfirmation": true
+    }
+  }
+  
+}

@@ -1,0 +1,58 @@
+{
+  "AccessToken": {
+    "urlSuffix": "/PasswordVault/api/auth/Cyberark/Logon",
+    "method": "TOKEN"
+  },
+  "LdapLogOn": {
+    "urlSuffix": "/PasswordVault/api/auth/ldap/logon",
+    "method": "TOKEN"
+  },
+  "Configuration": {
+    "urlSuffix": "/PasswordVault/api/settings/configuration",
+    "method": "GET"
+  },
+  "GetAllAccounts": {
+    "urlSuffix": "/PasswordVault/api/Accounts",
+    "method": "GET"
+  },
+  "GetAccountDetails": {
+    "urlSuffix": "/PasswordVault/api/Accounts/{id}",
+    "method": "GET"
+  },
+  "GetAccountVersions": {
+    "urlSuffix": "/PasswordVault/api/Accounts/{id}/versions",
+    "method": "GET"
+  },
+  "AddAccount": {
+    "urlSuffix": "/PasswordVault/api/Accounts",
+    "method": "POST"
+  },
+  "AddAccountSettings": {
+    "urlSuffix": "/PasswordVault/api/Settings/AddAccount",
+    "method": "GET"
+  },
+  "AddDiscoveredAccounts": {
+    "urlSuffix": "/PasswordVault/api/DiscoveredAccounts",
+    "method": "POST"
+  },
+  "GetPasswordValue": {
+    "urlSuffix": "/PasswordVault/api/Accounts/{accountId}/Password/Retrieve",
+    "method": "POST"
+  },
+  "ConnectViaPsm": {
+    "urlSuffix": "/PasswordVault/api/Accounts/{accountId}/PSMConnect",
+    "method": "POST"
+  },
+  "DeleteAccount": {
+    "urlSuffix": "/PasswordVault/api/Accounts/{id}",
+    "method": "DELETE"
+  },
+  "ListSafes": {
+    "urlSuffix": "/PasswordVault/WebServices/PIMServices.svc/Safes",
+    "method": "GET"
+  },
+  "": {
+    "urlSuffix": "",
+    "method": ""
+  }
+}
